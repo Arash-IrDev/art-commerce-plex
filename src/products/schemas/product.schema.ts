@@ -18,6 +18,6 @@ export const ProductSchema = new Schema({
         },
         size: Number,
         description: String,
-        recommendations: Array
+        recommendations: [String]
     }
 });
