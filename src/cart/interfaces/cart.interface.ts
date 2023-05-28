@@ -1,9 +1,7 @@
 import { Document } from 'mongoose';
-// import { User } from '../user/schemas/user.interface';
-// import { Product } from 'src/products/interfaces/product.interface';
 
 export interface Cart extends Document {
-//   user: User;
+  user: string; // Assuming we store the user ID as a string
   items: CartItem[];
 }
 
