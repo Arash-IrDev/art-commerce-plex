@@ -8,7 +8,7 @@ import { CartModule } from './cart/cart.module';
 @Module({
   imports: [
     ProductsModule,
-    MongooseModule.forRoot('mongodb+srv://bejamas:D4yQ9F0i4ZF3aLsR@mongodb-europe-cluster.exyjigi.mongodb.net'),
+    MongooseModule.forRoot('mongodb+srv://bejamas:D4yQ9F0i4ZF3aLsR@mongodb-europe-cluster.exyjigi.mongodb.net/art-commerce-plex-db'),
     CartModule,
   ],
   controllers: [AppController],
